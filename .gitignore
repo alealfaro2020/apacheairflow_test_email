@@ -1,0 +1,29 @@
+# Ignora los archivos .env
+.env
+.env-compose
+env
+
+# Ignora la carpeta node_modules
+node_modules/
+
+#ignora los frames
+airflow/frame_limpio.csv
+airflow/frame.csv
+
+#Ignora la carpeta logs airflow
+
+airflow/logs
+
+# Ignora los archivos relacionados entornos locales
+venv/
+entorno_prueba_airflow/
+
+# Ignora los pycache en general
+__pycache__/
+
+# Ignora los logs de Airflow
+airflow/logs
+
+
+# Ignora los archivos csv
+*.csv
